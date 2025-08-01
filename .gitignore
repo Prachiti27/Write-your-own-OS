@@ -1,0 +1,64 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Compiled dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Executable files
+*.out
+*.elf
+*.bin
+*.iso
+*.img
+
+# Build directories
+/build/
+/bin/
+/dist/
+/output/
+
+# QEMU log files
+*.log
+*.pid
+*.lock
+
+# Debug files
+*.map
+*.lst
+
+# Temporary files
+*~
+*.tmp
+*.swp
+*.swo
+
+# VS Code and other IDE files
+.vscode/
+*.code-workspace
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# GRUB/ISO files
+/iso/
+/boot/
+
+# Make-specific
+Makefile.bak
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Other
+*.mod
+*.mod.c
